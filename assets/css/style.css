@@ -35,6 +35,13 @@ h1 {
   float: left;
 }
 
+li :after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
