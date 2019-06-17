@@ -1,0 +1,81 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/white-waves.png);
+}
+
+/* Style the header */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #4aaaa5;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  float: left;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    text-align: left;
+    float: center;
+}
+
+div {
+    width: 960px;
+    background-color: #ffffff;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+/* Create the */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+
+footer {
+  background-color: #666666;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
