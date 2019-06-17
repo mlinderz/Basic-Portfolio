@@ -18,6 +18,13 @@ ul {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
+  li a {
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+  }
+
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #4aaaa5;
