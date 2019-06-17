@@ -10,19 +10,31 @@ body {
 
 /* Style the header */
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.topnav {
     background-color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
   }
-
-  li a {
-    display: inline-block;
-    color: #777777;
-    text-align: center;
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: gray;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
   }
 
 h1 {
@@ -35,13 +47,6 @@ h1 {
   float: left;
 }
 
-li :after
-{
-    content:' ';
-    display:block;
-    border:2px solid black;
-}
-
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
@@ -50,18 +55,15 @@ h2 {
     float: center;
 }
 
-div {
-    width: 960px;
-    background-color: #ffffff;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-  }
-
 /* Create the */
 p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left
+}
+
+img {
+    align-content: left;
+    padding:30px;
 }
 
 /* Style the list inside the menu */
