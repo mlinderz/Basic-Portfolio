@@ -13,22 +13,27 @@ header {
     position: fixed;
     align-items: center;
     width: 100%;
-    height:70px;
+    height:90px;
     top: 0px;
     left:0;
     background-color: white;
     padding: 30px;
     text-decoration: none;
+    border-bottom: solid #cccccc 2px;
   }
   
 .nav-links li {
     justify-content: flex-end;
     display: inline-block;
-    padding: 20px 20px;
+    padding: 30px 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     color: #666666;
+    margin-left: 70px;
+    border-left: 1px solid lightgrey;
+    height: 2px;
+    float: inline-end;
   }
 
   a:link{
@@ -39,22 +44,36 @@ header {
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #4aaaa5;
-  padding:15px 20px;
-  text-align: left;
-  font-size: 35px;
+  padding:59px 20px;
+  justify-content: center;
+  font-size: 30px;
   color: white;
   float: left;
-  margin-right: auto;
-  padding-left: 100px;
+  margin-left: 110px;
+  margin-bottom:50px;
+  top: 32px;
+  height: 20px;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
     color: #4aaaa5;
-    font-size: 35px;
+    font-size: 30px;
     text-align: left;
-    float: left;
+    border-bottom: solid #cccccc 3px;
+    padding-bottom: 30px;
+}
+
+p{
+  margin-right: 5px;
+  line-height: 25px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  font-size: 18px;
 }
 
 a: link {
@@ -63,30 +82,34 @@ a: link {
 
 footer {
   background-color: #666666;
-  padding: 10px;
+  padding-top: 40px;
   text-align: center;
-  color: white;
+  color: lightgray;
+  font-size: 12px;
   display: fixed;
-  border-top: #4aaaa5 2px;
+  border-top: solid 8px #4aaaa5;
   position: fixed;
   width: 100%;
+  height: 70px;
   left:0;
   bottom:0;
 }
 
 img{
   float: left;
-  position: fixed;
-  margin: 20px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 0px;
 }
 
 #box{
   background-color: white;
-  width: 900px;
-  height: 320px;
-  margin-top:147px;
+  width: 960px;
+  height: 500px;
+  margin-top:130px;
   margin-bottom: 70px;
-  margin-left: 147px;
+  margin-left: 130px;
   padding: 15px 30px 60px 30px;
   border-style: solid;
   border-color:#dddddd;
