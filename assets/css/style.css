@@ -23,23 +23,30 @@ header {
   }
   
 .nav-links li {
-    justify-content: flex-end;
-    display: inline-block;
-    padding: 30px 20px;
-    text-align: center;
+    float: right;
+    display: flex;
+    float: 2px;
+    padding-left: 20px;
+    justify-items: flex-end;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #666666;
-    margin-left: 70px;
+    margin-left: 140px;
+    width: 1px;
+    margin-right: 10px;
     border-left: 1px solid lightgrey;
-    height: 2px;
-    float: inline-end;
+    height: 100%;
+    text-decoration: none;
+    word-spacing: 10px;
   }
 
   a:link{
     color: #666666;
     text-decoration: none;
   }
+
+a:visited { text-decoration: none; color:#A9A29F; }
+a:hover, a:active { text-decoration: none; color:black }
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -74,10 +81,7 @@ p{
   font-family: Arial, Helvetica, sans-serif;
   color: #777777;
   font-size: 18px;
-}
-
-a: link {
-  color: gray;
+  line-height:1.6;
 }
 
 footer {
@@ -114,4 +118,138 @@ img{
   border-style: solid;
   border-color:#dddddd;
   border-width: 0.1px;
+}
+
+#box-contact{
+  background-color: white;
+  width: 960px;
+  height: 600px;
+  margin-top:130px;
+  margin-bottom: 70px;
+  margin-left: 130px;
+  padding: 15px 30px 80px 30px;
+  border-style: solid;
+  border-color:#dddddd;
+  border-width: 0.1px;
+}
+
+#box-portfolio{
+  background-color: white;
+  width: 960px;
+  height: 600px;
+  margin-top:130px;
+  margin-bottom: 70px;
+  margin-left: 130px;
+  padding: 15px 30px 60px 30px;
+  border-style: solid;
+  border-color:#dddddd;
+  border-width: 0.1px;
+}
+
+
+#box0{
+    background-color: white;
+    height: 65px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#cccccc;
+}
+
+.container1{
+  float: left;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.Hangman{
+  float: left;
+  top:30%;
+  padding-top: 70px;
+  left:40.4%;
+  background-color: #4aaaa5;
+  width: 160px;
+  height: 35px;
+  padding-top: 5px;
+  margin-top: 0px;
+}
+
+.container2{
+  float: right;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.RPG{
+  float: right;
+  top:65%;
+  left:40.4%;
+  background-color: #4aaaa5;
+  width: 173.4px;
+  height: 25px;
+  padding-top: 5px;
+}
+
+.container3{
+  float: right;
+  text-align: center;
+  color: white;
+}
+
+.Trivia{
+  position: absolute;
+  top:65%;
+  left:40.4%;
+  background-color: #4aaaa5;
+  width: 173.4px;
+  height: 25px;
+  padding-top: 5px;
+}
+
+.container4{
+  float: left; 
+  text-align: center;
+  color: white;
+}
+
+.Rutgers{
+  position: absolute;
+  top:65%;
+  left:40.4%;
+  background-color: #4aaaa5;
+  width: 173.4px;
+  height: 25px;
+  padding-top: 5px;
+}
+
+.container5{
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+.rock{
+  position: absolute;
+  top:65%;
+  left:40.4%;
+  background-color: #4aaaa5;
+  width: 173.4px;
+  height: 25px;
+  padding-top: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
