@@ -24,10 +24,11 @@ header {
   
 .nav-links li {
     float: right;
-    display: flex;
+    display:flex;
     float: 2px;
     padding-left: 20px;
-    justify-items: flex-end;
+    padding-right: 30px;
+    text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #666666;
@@ -37,7 +38,7 @@ header {
     border-left: 1px solid lightgrey;
     height: 100%;
     text-decoration: none;
-    word-spacing: 10px;
+    position: relative;
   }
 
   a:link{
@@ -118,6 +119,7 @@ img{
   border-style: solid;
   border-color:#dddddd;
   border-width: 0.1px;
+  box-sizing: border-box;
 }
 
 #box-contact{
@@ -136,7 +138,7 @@ img{
 #box-portfolio{
   background-color: white;
   width: 960px;
-  height: 600px;
+  height: 760px;
   margin-top:130px;
   margin-bottom: 70px;
   margin-left: 130px;
@@ -146,110 +148,110 @@ img{
   border-width: 0.1px;
 }
 
-
-#box0{
-    background-color: white;
-    height: 65px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color:#cccccc;
-}
-
 .container1{
+  width:45%;
   float: left;
-  position: relative;
   text-align: center;
-  color: white;
+  top: 300px;
 }
-.Hangman{
-  float: left;
-  top:30%;
-  padding-top: 70px;
-  left:40.4%;
-  background-color: #4aaaa5;
+.container1 .text{
+  position: absolute;
+  z-index: 1;
   width: 160px;
   height: 35px;
-  padding-top: 5px;
-  margin-top: 0px;
-}
-
-.container2{
-  float: right;
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.RPG{
-  float: right;
-  top:65%;
-  left:40.4%;
+  padding-top: 10px;
+  left: 178px;
+  right: 0;
+  top: 412px;
   background-color: #4aaaa5;
-  width: 173.4px;
-  height: 25px;
-  padding-top: 5px;
+  color: white; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container2{
+  width:25%;
+  left: 33.3%;
+  float: left;
+  text-align: center;
+  top: 300px;
+
+}
+.container2 .text{
+  position: absolute;
+  z-index: 1;
+  width: 160px;
+  height: 35px;
+  padding-top: 10px;
+  left: 412px;
+  right: 0;
+  top: 412px;
+  background-color: #4aaaa5;
+  color: white; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container3{
+  width:33.3%;
   float: right;
-  text-align: center;
-  color: white;
+  text-align: center;;
 }
 
-.Trivia{
+.container3 .text{
   position: absolute;
-  top:65%;
-  left:40.4%;
+  z-index: 1;
+  width: 160px;
+  height: 35px;
+  padding-top: 10px;
+  left: 179px;
+  right: 0;
+  top: 618px;
   background-color: #4aaaa5;
-  width: 173.4px;
-  height: 25px;
-  padding-top: 5px;
+  color: white; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container4{
-  float: left; 
+  width:33.3%;
+  float: right; 
   text-align: center;
-  color: white;
 }
 
-.Rutgers{
+.container4 .text{
   position: absolute;
-  top:65%;
-  left:40.4%;
+  z-index: 1;
+  width: 160px;
+  height: 35px;
+  padding-top: 10px;
+  left: 412px;
+  right: 0;
+  top: 618px;
   background-color: #4aaaa5;
-  width: 173.4px;
-  height: 25px;
-  padding-top: 5px;
+  color: white; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container5{
-  float: left;
-  text-align: center;
-  color: white;
+  width:33.3%;
+  float: right;
+  text-align: center;;
 }
 
-.rock{
+.container5 .text{
   position: absolute;
-  top:65%;
-  left:40.4%;
+  z-index: 1;
+  width: 160px;
+  height: 35px;
+  padding-top: 10px;
+  left: 179px;
+  right: 0;
+  top: 818px;
   background-color: #4aaaa5;
-  width: 173.4px;
-  height: 25px;
-  padding-top: 5px;
-}
-
-* {
-  box-sizing: border-box;
+  color: white; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .column {
   float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+  width: 60%;
+  height:600px;
+  padding: 10px;
 }
