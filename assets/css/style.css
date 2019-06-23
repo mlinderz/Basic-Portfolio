@@ -20,6 +20,7 @@ header {
     padding: 30px;
     text-decoration: none;
     border-bottom: solid #cccccc 2px;
+    z-index: 1;
   }
   
 .nav-links li {
@@ -153,6 +154,7 @@ img{
   float: left;
   text-align: center;
   top: 300px;
+  z-index: -1;
 }
 .container1 .text{
   position: absolute;
@@ -166,6 +168,7 @@ img{
   background-color: #4aaaa5;
   color: white; 
   font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 0;
 }
 .container2{
   width:25%;
@@ -173,7 +176,7 @@ img{
   float: left;
   text-align: center;
   top: 300px;
-
+  z-index: -1;
 }
 .container2 .text{
   position: absolute;
@@ -187,12 +190,14 @@ img{
   background-color: #4aaaa5;
   color: white; 
   font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 0;
 }
 
 .container3{
   width:33.3%;
   float: right;
-  text-align: center;;
+  text-align: center;
+  z-index: -1;
 }
 
 .container3 .text{
@@ -207,12 +212,14 @@ img{
   background-color: #4aaaa5;
   color: white; 
   font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 0;
 }
 
 .container4{
   width:33.3%;
   float: right; 
   text-align: center;
+  z-index: -1;
 }
 
 .container4 .text{
@@ -227,12 +234,14 @@ img{
   background-color: #4aaaa5;
   color: white; 
   font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 0;
 }
 
 .container5{
   width:33.3%;
   float: right;
-  text-align: center;;
+  text-align: center;
+  z-index: -1;
 }
 
 .container5 .text{
@@ -247,6 +256,7 @@ img{
   background-color: #4aaaa5;
   color: white; 
   font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 0;
 }
 
 .column {
