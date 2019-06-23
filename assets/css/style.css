@@ -52,7 +52,7 @@ a:hover, a:active { text-decoration: none; color:black }
 
 div#About  {order: 3;}
 div#Portfolio  {order: 2;}
-div#Contact {order: 1;}
+div#Contact {order: 1}
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -117,7 +117,7 @@ img{
 #box{
   background-color: white;
   width: 960px;
-  height: 500px;
+  height: 400px;
   margin-top:130px;
   margin-bottom: 70px;
   margin-left: 130px;
@@ -125,7 +125,6 @@ img{
   border-style: solid;
   border-color:#dddddd;
   border-width: 0.1px;
-  box-sizing: border-box;
 }
 
 #box-contact{
